@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-fallback-key-for-lab-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://lab-devops-rmli.vercel.app/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'lab-devops-5phj-rmli.vercel.app']
 
 
 # Application definition
