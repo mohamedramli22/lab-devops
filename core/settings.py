@@ -15,6 +15,13 @@ from pathlib import Path
 
 import sentry_sdk
 
+sentry_sdk.init(
+    dsn="https://22f58006c5895a5a147f97de25621a81@o4511337701703680.ingest.de.sentry.io/4511337718022224",
+    # Add data like request headers and IP for users,
+    # see https://docs.sentry.io/platforms/python/data-management/data-collected/ for more info
+    send_default_pii=True,
+    )
+
 from sentry_sdk.integrations.django import DjangoIntegration
 
  
