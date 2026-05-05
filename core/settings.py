@@ -21,7 +21,7 @@ from sentry_sdk.integrations.django import DjangoIntegration
 
 sentry_sdk.init(
 
-    dsn="votre-dsn",  # Remplacez par le DSN copié depuis Sentry
+    dsn="4511337701703680",  # Remplacez par le DSN copié depuis Sentry
 
     integrations=[DjangoIntegration()],
 
